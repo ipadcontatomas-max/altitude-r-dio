@@ -1,0 +1,16 @@
+STUG Guarda — versão preparada para PWA
+
+Ficheiros:
+- index.html: aplicação
+- manifest.json: nome, ícones e modo de instalação
+- sw.js: cache básica para abrir a aplicação offline
+- icons/: ícones da aplicação
+
+Como publicar:
+1. Carrega TODOS os ficheiros e a pasta icons para o mesmo diretório num alojamento HTTPS (por exemplo, GitHub Pages).
+2. Abre o endereço HTTPS no Android com Chrome.
+3. Usa o menu ⋮ > Instalar aplicação (ou Adicionar ao ecrã principal).
+4. No iPhone/iPad, abre no Safari > Partilhar > Adicionar ao ecrã principal.
+
+Limitações offline:
+A interface e os dados incluídos no HTML podem abrir sem ligação depois de a aplicação ter sido carregada e a cache instalada. Pesquisa de locais, mapas externos e tiles do mapa necessitam de internet; a primeira instalação também deve ser feita online.
